@@ -6,9 +6,12 @@ programa {
     leia (n1)
     escreva ("Digite a sua idade: ")
     leia (idade)
-  }
+    se (idade > 18){
+    escreva (nome, ", você é maior de idade")
+    }senao{
+    escreva (nome, ", você é menor de idade")
+    }
 }
-
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.

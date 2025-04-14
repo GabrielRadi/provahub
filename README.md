@@ -54,7 +54,11 @@ troca de alguns erros de comandos do git de Otávio
 12 - Update.README.md
 adicionado as especificações do critério de avaliação
 
+13 - Update.README.md
+adicionado mais especificações do criterio de avaliação
 
+
+Objetivo: desenvolver colaborativamente um algoritimo no portugol, no qual é solicitado nome e idade do usuario e retorna se ele é maior ou menor de idade
 
 
 Gabriel Git Bash

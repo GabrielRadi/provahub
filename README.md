@@ -105,3 +105,49 @@ To github.com:GabrielRadi/provahub.git
 gabri@Gabriel MINGW64 ~/provahub (main)
 $
 
+Eduardo Git Bash
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git
+$ git clone git@github.com:GabrielRadi/provahub.git
+Cloning into 'provahub'...
+remote: Enumerating objects: 6, done.
+remote: Counting objects: 100% (6/6), done.
+remote: Compressing objects: 100% (2/2), done.
+remote: Total 6 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (6/6), done.
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git pull
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (6/6), done.
+remote: Total 6 (delta 0), reused 3 (delta 0), pack-reused 0 (from 0)
+Unpacking objects: 100% (6/6), 2.37 KiB | 115.00 KiB/s, done.
+From github.com:GabrielRadi/provahub
+   fcd2543..722a97d  main       -> origin/main
+Updating fcd2543..722a97d
+Fast-forward
+ README.md                   | 105 ++++++++++++++++++++++++++++++++++++++++++++
+ "Sem t\303\255tulo (7).por" |   7 +++
+ 2 files changed, 112 insertions(+)
+ create mode 100644 "Sem t\303\255tulo (7).por"
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git add .
+warning: in the working copy of 'Sem título (7).por', LF will be replaced by CRLF the next time Git touches it
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git commit -m "Adicionado idade"
+[main 572d882] Adicionado idade
+ 1 file changed, 16 insertions(+), 1 deletion(-)
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 656 bytes | 656.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To github.com:GabrielRadi/provahub.git
+   722a97d..572d882  main -> main
+

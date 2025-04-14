@@ -232,3 +232,42 @@ Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
 To github.com:GabrielRadi/provahub.git
    68e1cfd..31129cd  main -> main
+
+
+Arrumando Git bash (Problema com variaveis diferentes e falta de chaves)
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git pull
+remote: Enumerating objects: 12, done.
+remote: Counting objects: 100% (12/12), done.
+remote: Compressing objects: 100% (8/8), done.
+remote: Total 9 (delta 2), reused 3 (delta 1), pack-reused 0 (from 0)
+Unpacking objects: 100% (9/9), 4.61 KiB | 120.00 KiB/s, done.
+From github.com:GabrielRadi/provahub
+   572d882..6a812d1  main       -> origin/main
+Updating 572d882..6a812d1
+Fast-forward
+ README.md                   | 127 ++++++++++++++++++++++++++++++++++++++++++++
+ "Sem t\303\255tulo (7).por" |   7 ++-
+ 2 files changed, 132 insertions(+), 2 deletions(-)
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git add .
+warning: in the working copy of 'Sem título (7).por', LF will be replaced by CRLF the next time Git touches it
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git commit -m "Problema das variaveis e falta de chaves resolvido"
+[main d852033] Problema das variaveis e falta de chaves resolvido
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+eduar@NotebookEdu MINGW64 ~/OneDrive/Desktop/trabalho git/provahub (main)
+$ git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 390 bytes | 390.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To github.com:GabrielRadi/provahub.git
+   6a812d1..d852033  main -> main

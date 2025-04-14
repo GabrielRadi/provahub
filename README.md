@@ -1,2 +1,2 @@
 # provahub
-gabriel, eduardo, otavio
+Gabriel Criou o Repositório

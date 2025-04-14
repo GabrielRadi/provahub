@@ -1,6 +1,62 @@
 # provahub
 Gabriel Criou o Repositório
 
+
+Gabriel Criou o Repositório
+
+integrantes:
+
+Gabriel Paz Ribeiro
+Eduardo Vieira Montagna
+Otávio Augusto Milioni Costa
+
+1 - Initil Commit
+commit inicial
+
+2 - Update.README.md
+trocada a descrição do README.md
+
+3 - adicionado portugol inicial com a função de pedir o nome do usuario
+adicionada primeira parte do código do portugol incluindo a variavel de nome, o sistema perguntando o nome do usuario
+
+4 - Update.README.md
+adicionado os comandos do git de Gabriel
+
+5 - Adicionado idade
+pull do repositório
+atualização do código para colocar a variavel idade, e a pergunta do sistema em relação a idade do usúario
+utilização do git add
+utilização do git commit -m
+utilização do git push
+
+6 - Update.README.md
+adicionado os comandos do git de Eduardo
+
+7 - verificação de idade
+pull do repositório
+adicionado código que escreve algo diferente baseado na idade do usuario
+utilização do git add
+utilização do git commit -m
+utilização do git push
+
+8 - Update.README.md
+adicionado os comandos do git de Otávio
+
+9 - Problema das variaveis e falta de chaves resolvido
+resolvido problema de variaveis, em que as variaveis possuiam nomes errados e faltava uma chave no final
+
+10 - Update.README.md
+adicionado mais comandos do git de Otávio
+
+11 - Update.README.md
+troca de alguns erros de comandos do git de Otávio
+
+12 - Update.README.md
+adicionado as especificações do critério de avaliação
+
+
+
+
 Gabriel Git Bash
 
 gabri@Gabriel MINGW64 ~
